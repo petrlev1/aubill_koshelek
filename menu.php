@@ -6,7 +6,9 @@ include 'head_menu.php';
 
 <div class="containAll">
 
-<div id="content_menu_generalUser"><?php include 'inc/content_menu_generalUser.html'; ?></div>
+<div id="content_menu_generalUser">
+  <?php include 'inc/content_menu_generalUser.html'; ?>
+</div>
 
 <div id="content_menu_juniorUser"><?php include 'inc/content_menu_juniorUser.html'; ?></div>
 

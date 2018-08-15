@@ -71,10 +71,12 @@ h3 { margin-top: 10px; }
 
 
 
-.modal1 { position: absolute; font-size: 14px; border-radius: 3px; padding: 15px; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.5); z-index: 99; text-align: left; }
+.modal1 { position: absolute; display: none; font-size: 14px; border-radius: 3px; padding: 15px; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.5); z-index: 99; text-align: left; }
 
  .modal1NewDoc { display: none; width: 150px; }
 /* .newDoc:active ~ .modal1NewDoc { display: block } */
+
+.modal1ChangeUser { display: none; }
 
 .modal1InvoysPeredat { display: none }
 .InvoysPeredat:hover .modal1InvoysPeredat { display: block }
