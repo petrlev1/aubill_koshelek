@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0 }
+
+a { border: 0; color: #1776E6; text-decoration: none; }
+
+body { padding: 30px; font-family:Verdana, Geneva, sans-serif; }
+
+.but1 { display: inline-block; font-size: 11px; padding: 10px 10px; font-weight: bold; border: 1px solid #1776E6; border-radius: 3px; margin: 5px;  }
+
+h3 { margin-top: 10px; }
+
+.header0 { position: absolute; top: 0; width: 100%; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.3); }
+
+.contain0  { width: 318px; margin: 20px 50px 15px 0; }
+
+.contain1 { position: relative; font-size: 13px; width: 318px; height: 515px; border: 1px solid #cccccc }
+
+.contain2 { position: absolute; overflow-x: hidden; overflow-y: scroll; top: 43px; bottom: 65px; width: 100%; }
+
+.panel1 { position: absolute; width: 100%; height: 65px; bottom: 0; font-size: 11px; font-weight: bold; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.3); }
+
+.containAll { padding: 8px; }
+
+.containCheki { position: absolute; overflow-y: scroll; overflow-x: hidden; top: 116px; bottom: 0; width: 100%; }
+
+.tit1 { font-size: 14px }
+
+.name1 { font-size: 15px; font-style: italic; margin: 0 0 3px 0; color: #8b8b8b; }
+.name1 a { color: #8b8b8b }
+
+.head1 { background-color: #E6E6E6; padding: 8px; font-size: 12px; box-shadow: 0 0 5px rgba(0,0,0,0.3); }
+
+.tab1 { background-color: #f8f8f8 }
+
+.cheki_list_block { border-bottom: 1px solid #E6E6E6; margin: 10px 5px; padding: 5px; }
+
+.sFont { font-size: 11px; }
+
+.table1 td { padding: 10px; border-bottom: 1px solid #E6E6E6 }
+
+.pic1 { background-color: #E6E6E6; text-align: center }
+.pic2 { width: 25px; height: 25px; margin: 0 8px 0 0; background-color: #E6E6E6; text-align: center; border-radius: 3px; }
+
+.archivBlock { opacity: 0.3; }
+
+
+
+.genTable td { background-color: #E6E6E6; text-align: center; height: 100px; }
+.genTable td a { font-weight: bold }
+
+
+.spisokPravAll {}
+.spisokPravAll input { display: inline-block; margin: 0 3px 0 0 }
+
+.spisokPrav:checked + .spisokPrav2 { display: block; margin: 10px 0 0 0; }
+.spisokPrav2 { display: none }
+
+.note1 { font-size: 11px; padding: 0 20px 0 0 }
+.note2 { font-size: 11px; color: #898989; }
+.note3 { font-size: 14px; color: #5a5a5a; margin: 10px 0 0 0; }
+
+#payTypeOpt2 { display: none }
+
+#changeListShowCheki, #changeListShowSchet, #changeListShowSum, #content_menu_juniorUser { display: none }
+
+.listSlujebUsers { display: block; margin: 5px 0; padding: 8px 0; border-bottom: 1px solid #e3e3e3 }
+
+
+
+
+
+
+
+
+.modal1 { position: absolute; font-size: 14px; border-radius: 3px; padding: 15px; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.5); z-index: 99; text-align: left; }
+
+ .modal1NewDoc { display: none; width: 150px; }
+/* .newDoc:active ~ .modal1NewDoc { display: block } */
+
+.modal1InvoysPeredat { display: none }
+.InvoysPeredat:hover .modal1InvoysPeredat { display: block }
