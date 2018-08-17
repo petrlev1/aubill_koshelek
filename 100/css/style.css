@@ -20,7 +20,7 @@ h3 { margin-top: 10px; }
 
 .containAll { padding: 8px; }
 
-.containCheki { position: absolute; overflow-y: scroll; overflow-x: hidden; top: 116px; bottom: 0; width: 100%; }
+.containCheki { position: absolute; overflow-y: scroll; overflow-x: hidden; top: 144px; bottom: 0; width: 100%; }
 
 .tit1 { font-size: 14px }
 
@@ -41,6 +41,8 @@ h3 { margin-top: 10px; }
 .pic2 { width: 25px; height: 25px; margin: 0 8px 0 0; background-color: #E6E6E6; text-align: center; border-radius: 3px; }
 
 .archivBlock { opacity: 0.3; }
+
+.butMenuJunior { display: none }
 
 
 

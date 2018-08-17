@@ -7,7 +7,7 @@
     <td><a href="#" class="newDoc"><img src="css/img/plus.svg"></a>
     <div class="modal1 modal1NewDoc">
 <div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg"></a></div>
-Создать новый:
+Выпустить:
 <br>
 <br>
 <a href="sozdanie_cheka.php">Чек</a><br>
