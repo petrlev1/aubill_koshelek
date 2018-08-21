@@ -61,5 +61,7 @@ $("#changeListDate").change(function(){
 
 </script>
   </div>
+  
+<?php include 'inc/downPanel.php'; ?>
 
 <?php include 'footer.php'; ?>

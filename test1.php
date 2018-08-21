@@ -110,6 +110,15 @@ $(".editUserTitle").click(function() {$(".modal1ChangeTitle").show();});
 <?php include 'inc/list_all.html'; ?>
 </div>
 
+<div class="downPanel"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><a class="downPanelItem">Кошелек</a></td>
+    <td align="center"><a class="downPanelItem">QR-код</a></td>
+    <td align="center"><a class="downPanelItem">Контакты</a></td>
+  </tr>
+</table>
+</div>
+
 </div>
 
 <script type="text/javascript" src="js/myScripts.js"></script>

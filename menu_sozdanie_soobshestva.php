@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
 <?php
-$menuBack = "menu_upravlenie_slujeb_users.php";
-$titleName = "Редактирование младшего пользователя";
+$menuBack = "menu_upravlenie_soobshestvami.php";
+$titleName = "Создание нового сообщества";
 include 'head_menu2.php';
 ?>
 
@@ -10,20 +10,34 @@ include 'head_menu2.php';
   <div class="containAll">
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
       <tr>
-        <td>Отображаемое имя</td>
+        <td>Название сообщества</td>
         </tr>
       <tr>
-        <td>Номер телефона</td>
+        <td>Пользователи включенные в сообщество:<br>
+          <div style="margin: 7px 0; font-size: 11px; font-weight:bold">Иванов Крнатнтин</div>
+          <div style="margin: 7px 0; font-size: 11px; font-weight:bold">Бобров Александр</div>
+          
+          
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding: 0; border-bottom: none"><a href="#" style="margin: 8px 0; display:block;">Добавить нового пользователя</a></td>
+    <td style="padding: 0; border-bottom: none"><a href="#" style="margin: 8px 0; display:block;">Редактировать</a></td>
+  </tr>
+</table>
+
+          </td>
         </tr>
+      
       <tr>
         <td><br>
-
+          
           <strong>Список прав:</strong><br>
+          <div class="note2">Список прав распространяется на всех пользователей сообщества. Для задания индивидуальных прав пользователю, перейдите в раздел "Управление младшими пользователями".</div>
           
           <br>
           <strong>Чеки:</strong><br>
           <div class="spisokPravAll">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
               <tr>
                 <td>
                   <label class="spisokPrav"><input name="" type="checkbox" value="" class="spisokPrav">Создание чека
@@ -59,15 +73,15 @@ include 'head_menu2.php';
                 </tr>
               </table>
             </div>
-            
-            <br>
+          
+          <br>
           <strong>Счета:</strong><br>
           <div class="spisokPravAll">
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>
                   <label class="spisokPrav"><input name="" type="checkbox" value="" class="spisokPrav">Создание счета
-                  </label>
+                    </label>
                   </td>
                 </tr>
               <tr>
@@ -86,7 +100,7 @@ include 'head_menu2.php';
               <tr>
                 <td>
                   <label class="spisokPrav"><input name="" type="checkbox" value="" class="spisokPrav">Отклонение счета
-                  </label>
+                    </label>
                   </td>
                 </tr>
               <tr>
@@ -95,8 +109,8 @@ include 'head_menu2.php';
                 </tr>
               </table>
             </div>
-            
-            <br>
+          
+          <br>
           <strong>Виртуальные карты:</strong><br>
           <div class="spisokPravAll">
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -109,25 +123,24 @@ include 'head_menu2.php';
                 </tr>
               <tr>
                 <td>
-
                   <label class="spisokPrav"><input name="" type="checkbox" value="" class="spisokPrav">Передача
                   <div class="spisokPrav2">на сумму менее: <input name="textfield" type="text" id="textfield" size="3"></div>
-                    </label>
+                  </label>
                   </td>
                 </tr>
               </table>
             </div>
-            
+          
           </td>
         </tr>
       </table>
     
-    </div>
+  </div>
 </div>
 <div class="panel1" style="height: 45px;">
   <table width="100%" border="0" cellspacing="8" cellpadding="0">
     <tr>
-      <td width="100%" align="center" valign="top"><a href="menu_upravlenie_slujeb_users2.php">Сохранить</a></td>
+      <td width="100%" align="center" valign="top"><a href="menu_upravlenie_soobshestvami2.php">Создать</a></td>
       </tr>
       
   </table>
