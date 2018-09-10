@@ -19,8 +19,9 @@
 <div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg"></a></div>
 
 <a href="#" class="content_menu_generalUser" style="display:block; padding: 15px 0; border-bottom: 1px solid #e6e6e6">Мой кошелек</a>
-<a href="#" class="content_menu_juniorUser" style="display:block; padding: 15px 0">Мой семейный кошелек
-<div style="display:block; font-size: 11px; margin: 5px 0 0 0">Старший пользователь: <strong>Иванов Константин</strong></div></a>
+<a href="#" class="content_menu_juniorUser" style="display:block; padding: 15px 0; border-bottom: 1px solid #e6e6e6">Мой семейный кошелек
+<div style="display:block; font-size: 11px; margin: 5px 0 0 0;">Старший пользователь: <strong>Иванов Константин</strong></div></a>
+<a href="#" class="content_menu_generalUser2" style="display:block; padding: 15px 0;">Кафе Березка</a>
 
 </div>
 
@@ -39,6 +40,14 @@ $(".content_menu_generalUser").click(function()
 	$("div#content_menu_generalUser").show();
 	$(".modal1").hide();
 	document.getElementById('modal1ChangeUser').innerHTML = '<a style="display:block; font-size: 15px; margin: 5px 0 5px 0; padding: 0 0 5px 0; border-bottom: 1px solid #DDD"><strong>Иванов Иван</strong> &#9660;</a><a style="display:block; font-size: 11px;"><strong>Старший кошелек</strong></a>';
+});
+
+$(".content_menu_generalUser2").click(function()
+{
+	$("div#content_menu_juniorUser").hide();
+	$("div#content_menu_generalUser").show();
+	$(".modal1").hide();
+	document.getElementById('modal1ChangeUser').innerHTML = '<a style="display:block; font-size: 15px; margin: 5px 0 5px 0; padding: 0 0 5px 0; border-bottom: 1px solid #DDD"><strong>Кафе Березка</strong> &#9660;</a><a style="display:block; font-size: 11px;"><strong>Старший кошелек</strong></a>';
 });
 
 $(".content_menu_juniorUser").click(function()
