@@ -1,22 +1,26 @@
-<div class="downPanel"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center"><a class="downPanelItem" id="modal1ChangeUser" style="cursor: pointer">Кошелек</a></td>
-    <td align="center"><a class="downPanelItem">QR-код</a></td>
-    <td align="center"><a class="downPanelItem">Контакты</a></td>
-  </tr>
-</table>
-</div>
-
-
-<div class="modal1 modal1ChangeUser" style="bottom: 40px;">
-<div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg"></a></div>
-
-<a href="#" class="content_menu_generalUser" style="display:block; padding: 15px 0; border-bottom: 1px solid #e6e6e6">Мой кошелек</a>
-<a href="#" class="content_menu_juniorUser" style="display:block; padding: 15px 0">Мой семейный кошелек
-<div style="display:block; font-size: 11px; margin: 5px 0 0 0">Старший пользователь: <strong>Иванов Константин</strong></div></a>
-
+<div class="newDocContain">
+    <a href="#" class="newDoc"><img src="css/img/plus.svg"> СОЗАДТЬ</a>
+    <div class="modal1 modal1NewDoc" style="bottom: 40px; right: 0">
+<div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg" /></a></div>
+<a href="sozdanie_cheka.php">Чек</a><br>
+<br>
+<a href="sozdanie_scheta.php">Счет</a><br>
+<br>
 </div>
 
 <script type="text/javascript">
-$("#modal1ChangeUser").click(function() {$(".modal1ChangeUser").show();});
+$(".newDoc").click(function(){
+    $(".modal1NewDoc").show();
+});
+
+$(".modal1NewDocClose").click(function(){
+    $(".modal1NewDoc").hide();
+});
 </script>
+</div>
+
+<div class="downPanel">
+  <div style="padding: 5px;">Всего чеков: <strong>2</strong><br />
+    На сумму: <strong>8000 р.</strong></div>
+</div>
+

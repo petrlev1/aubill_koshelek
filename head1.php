@@ -4,32 +4,11 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td><a href="#" class="newDoc"><img src="css/img/plus.svg"></a>
-    <div class="modal1 modal1NewDoc">
-<div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg"></a></div>
-Выпустить:
-<br>
-<br>
-<a href="sozdanie_cheka.php">Чек</a><br>
-<br>
-<a href="sozdanie_scheta.php">Счет</a><br>
-<br>
-</div>
-
-<script type="text/javascript">
-$(".newDoc").click(function(){
-    $(".modal1NewDoc").show();
-});
-
-$(".modal1NewDocClose").click(function(){
-    $(".modal1NewDoc").hide();
-});
-</script>
-
+    <td width="1">
+<a href="menu.php"><img src="css/img/menu.svg"></a>
     </td>
-    <td align="center"><strong>AyBill - кошелек</strong><br>
-Всего чеков: 2 на сумму: 8000 р.</td>
-    <td><a href="menu.php"><img src="css/img/menu.svg"></a></td>
+    <td align="center"><strong>AyBill - кошелек</strong></td>
+    <td width="1"><?php include 'inc/dropMenu.php'; ?></td>
   </tr>
 </table>
 
