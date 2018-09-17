@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <?php
-$menuBack = "menu.php";
+$menuBack = "koshelki.php";
 $titleName = "Создание нового кошелька";
 include 'head_menu2.php';
 ?>

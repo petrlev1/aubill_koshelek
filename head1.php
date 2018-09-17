@@ -8,7 +8,7 @@
 <a href="menu.php"><img src="css/img/menu.svg"></a>
     </td>
     <td align="center"><strong>AyBill - кошелек</strong></td>
-    <td width="1"><?php include 'inc/dropMenu.php'; ?></td>
+    <td width="1"><!--<?php include 'inc/dropMenu.php'; ?> --></td>
   </tr>
 </table>
 

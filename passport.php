@@ -49,17 +49,17 @@ include 'head_passport.php';
     <a href="#" class="newDoc">ДЕЙСТВИЯ</a>
     <div class="modal1 modal1NewDoc" style="bottom: 40px; right: 0">
 <div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg" /></a></div>
-<a href="sozdanie_cheka.php">Передать</a><br>
+<a href="#">Передать</a><br>
 <br>
-<a href="sozdanie_scheta.php">Получить по чеку деньги</a><br>
+<a href="#">Получить по чеку деньги</a><br>
 <br>
-<a href="sozdanie_scheta.php">Безопасная оплата</a><br>
+<a href="#">Безопасная оплата</a><br>
 <br>
-<a href="sozdanie_scheta.php">Разменять</a><br>
+<a href="#">Разменять</a><br>
 <br>
-<a href="sozdanie_scheta.php">В залог</a><br>
+<a href="#">В залог</a><br>
 <br>
-<a href="sozdanie_scheta.php">Удалить</a><br>
+<a href="#">Удалить</a><br>
 <br>
 </div>
 
