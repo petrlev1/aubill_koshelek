@@ -22,11 +22,11 @@ include 'head_menu2.php';
     <td><strong>Кафе Березка</strong></td>
     <td></td>
   </tr>
-  <tr>
-    <td colspan="2"><br>      <a href="sozdanie_novogo_koshelka.php">Создать новый кошелек</a></td>
-    </tr>
-  
 </table>
+<br>
+<br>
+
+<a href="sozdanie_novogo_koshelka.php" class="but2">Создать новый кошелек</a>
 </div>
 
 <div class="modal1 modal1NewPortType" style="left: 10px; right: 10px;">

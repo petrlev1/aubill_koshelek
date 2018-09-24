@@ -13,7 +13,7 @@ include 'head_passport.php';
 Изображение чека</div>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
   <tr>
-    <td>Номинал</td>
+    <td class="table1FirstTd">Номинал</td>
     <td><strong>1000р</strong>.</td>
   </tr>
   <tr>
@@ -41,37 +41,38 @@ include 'head_passport.php';
     <td><strong>10.01.2017</strong></td>
   </tr>
 </table>
-<div style="text-align: center; padding: 5px 0"><a href="#InvoysPasportHistory">История операций</a></div>
+<br>
+
+<div style="text-align: center; padding: 5px 0"><a href="#InvoysPasportHistory" class="but3">История операций</a></div>
   </div>
   </div>
 
-<div class="newDocContain">
-    <a href="#" class="newDoc">ДЕЙСТВИЯ</a>
-    <div class="modal1 modal1NewDoc" style="bottom: 40px; right: 0">
-<div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg" /></a></div>
-<a href="#">Передать</a><br>
-<br>
-<a href="#">Получить по чеку деньги</a><br>
-<br>
-<a href="#">Безопасная оплата</a><br>
-<br>
-<a href="#">Разменять</a><br>
-<br>
-<a href="#">В залог</a><br>
-<br>
-<a href="#">Удалить</a><br>
-<br>
+<a href="#" id="modal2" class="floatBut">
+    <span><img src="css/img/ic_action.svg"></span>
+    <p>ДЕЙСТВИЯ</p>
+  </a>
+<div class="modal2 modal2hide">
+  <div class="modal2cont">
+    <div style="text-align:right"><a href="#" class="modal2hide"><img src="css/img/close.svg" /></a></div>
+    <ul class="modalList">
+    <li><a href="#">Передать чек</a></li>
+    <li><a href="#">Получить по чеку деньги</a></li>
+    <li><a href="#">Безопасная оплата</a></li>
+    <li><a href="#">Разменять</a></li>
+    <li><a href="#">В залог</a></li>
+    <li class="modalListEnd"><a href="#">Удалить</a></li>
+    </ul>
+  </div>
 </div>
-
 <script type="text/javascript">
-$(".newDoc").click(function(){
-    $(".modal1NewDoc").show();
+$("#modal2").click(function(){
+    $(".modal2").show();
 });
 
-$(".modal1NewDocClose").click(function(){
-    $(".modal1NewDoc").hide();
+$(".modal2hide").click(function(){
+    $(".modal2").hide();
 });
 </script>
-</div>
+
 
 <?php include 'footer.php'; ?>

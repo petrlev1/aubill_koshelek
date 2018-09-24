@@ -13,30 +13,18 @@ include 'head_passport.php';
 Изображение чека</div>
 <br>
 Введите сумму, которая будет списана с указанного счета, для выпуска чека.<br>
+
+<ul class="fieldList">
+  <li><input type="text" size="8" placeholder="Номинал" class="inpText"></li>
+  <li>
+    <input type="text" size="8" placeholder="Счет" class="inpText">
+  </li>
+</ul>
 <br>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
-  
-  <tr>
-    <td>Номинал</td>
-    <td><input name="textfield2" type="text" id="textfield2" size="8"></td>
-  </tr>
-  
-  <tr>
-    <td>Счет</td>
-    <td><input name="textfield2" type="text" id="textfield2" size="8"></td>
-  </tr>
-</table>
-  </div>
-  </div>
-  
-  <div class="panel1">
-  <table width="100%" border="0" cellspacing="8" cellpadding="0">
-    <tr>
-      <td align="center" valign="top">
-        <div class="InvoysPeredat"><a>Продолжить</a></div></td>
-      </tr>
-    
-  </table>
+<div style="text-align:center">
+  <div class="but1">ПРОДОЛЖИТЬ</div>
 </div>
+</div>
+  </div>
 
 <?php include 'footer.php'; ?>

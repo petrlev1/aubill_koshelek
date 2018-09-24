@@ -11,7 +11,7 @@ include 'head_menu2.php';
   <tr>
     <td>Перемещать документы в архив по истечении:</td>
     <td><label>
-      <select name="select2" id="select2">
+      <select name="select2" id="select2" class="dropMenu">
         <option>12 часов</option>
         <option>1 дня</option>
         <option>3 дней</option>
@@ -20,10 +20,12 @@ include 'head_menu2.php';
   </tr>
   <tr>
     <td>Код авторизации для подключения меня младшим пользователем<br>
-      <a>Сгенерировать</a></td>
+      </td>
     <td><label>
-      <input name="textfield2" type="text" id="textfield2" size="6">
-    </label></td>
+      <input name="textfield2" type="text" id="textfield2" class="inpText" style="width: 80%">
+    </label>
+    <a class="but3">Сгенерировать</a>
+    </td>
   </tr>
 </table>
 

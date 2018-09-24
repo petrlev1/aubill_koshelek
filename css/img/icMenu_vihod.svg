@@ -5,9 +5,11 @@
 ]>
 <svg version="1.1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="21px" height="21px" viewBox="-4.118 -1.428 21 21" enable-background="new -4.118 -1.428 21 21"
+	 x="0px" y="0px" width="30px" height="30px" viewBox="-6.267 -6.269 30 30" enable-background="new -6.267 -6.269 30 30"
 	 xml:space="preserve">
 <defs>
 </defs>
-<path fill="#FFFFFF" d="M10.46,1.586L8.872,0L0,8.873l8.872,8.873l1.588-1.588L3.173,8.873L10.46,1.586z"/>
+<path fill="#333333" d="M7.237,12.849l1.438,1.439l5.102-5.103L8.676,4.082L7.237,5.521L9.87,8.165H0v2.042h9.87L7.237,12.849z
+	 M16.331,0H2.042C0.909,0,0,0.918,0,2.041v4.083h2.042V2.041h14.289v14.288H2.042v-4.082H0v4.082c0,1.123,0.909,2.041,2.042,2.041
+	h14.289c1.123,0,2.041-0.918,2.041-2.041V2.041C18.372,0.918,17.454,0,16.331,0z"/>
 </svg>

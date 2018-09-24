@@ -6,7 +6,7 @@ $titleName = "Редактирование младшего пользовате
 include 'head_menu2.php';
 ?>
 
-<div class="contain2" style="bottom: 47px; top: 54px;">
+<div class="contain2" style="bottom: 47px; top: 66px;">
   <div class="containAll">
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
       <tr>
