@@ -12,14 +12,13 @@
 </table>
 
 </div>
-<div class="tab1"><table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center"><a class="tab1Act"><strong>Принятые</strong></a><div class="actLine"></div></td>
-    <td align="center"><a>Отправленные</a></td>
-    <td align="center"><a>Архив</a></td>
-  </tr>
-</table>
+<div class="tab2">
+<a href="#" id="tab2_1" class="tab1Act">Принятые</a>
+<a href="#" id="tab2_2">Отправленные</a>
+<a href="#" id="tab2_3">Архив</a>
+<div class="actLine"></div>
 </div>
+
 <div class="line1"></div>
 <div class="indFilters">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -65,7 +64,6 @@
 <script type="text/javascript">
 $("#dropListDocs").click(function() {$("#dropListDocs2").show();});
 $("#dropListDate").click(function() {$("#dropListDate2").show();});
-
 </script>
   
 </div>

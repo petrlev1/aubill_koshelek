@@ -88,6 +88,24 @@ $(".modal2hide").click(function(){
 </script>
 
 
+<!--переключение блоков -->
+<script type="text/javascript">
+
+$("#tab2_1").click(function() {
+$(".list_block_table").css('left','0'); $(this).addClass('tab1Act'); $("#tab2_2, #tab2_3").removeClass('tab1Act'); $(".actLine").css({"left": "0", "width": "120px"});
+});
+
+$("#tab2_2").click(function() {
+$(".list_block_table").css('left','-362px'); $(this).addClass('tab1Act'); $("#tab2_1, #tab2_3").removeClass('tab1Act'); $(".actLine").css({"left": "122px", "width": "155px"});
+});
+
+$("#tab2_3").click(function() {
+$(".list_block_table").css('left','-724px'); $(this).addClass('tab1Act'); $("#tab2_2, #tab2_1").removeClass('tab1Act'); $(".actLine").css({"left": "280px", "width": "100px"});
+});
+
+</script>
+
+
 
 <div class="downPanel">
   <div style="padding: 3px 8px; font-size: 13px">
