@@ -199,3 +199,8 @@ h3 { margin-top: 10px; }
 
 
 
+@media screen and (max-width: 576px) {
+
+.contain1 { position: fixed; top: -24px; bottom: 0; height: auto;  border: none; }
+    
+}

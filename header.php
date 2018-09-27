@@ -10,6 +10,7 @@
 <link href="css/main.6532340a.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
 
 </head>
 
