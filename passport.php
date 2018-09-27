@@ -43,7 +43,7 @@ include 'head_passport.php';
 </table>
 <br>
 
-<div style="text-align: center; padding: 5px 0"><a href="#InvoysPasportHistory" class="but3">История операций</a></div>
+<div style="text-align: center; padding: 5px 0"><a href="#InvoysPasportHistory" class="but3">ИСТОРИЯ ОПЕРАЦИЙ</a></div>
   </div>
   </div>
 

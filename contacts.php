@@ -29,7 +29,7 @@ include 'head_menu2.php';
 
 <br><br>
 <div style="text-align: left">
-  <div class="but1">НОВЫЙ КОНТАКТ</div>
+  <div class="but3">+ СОЗДАТЬ КОНТАКТ</div>
 </div>
 
 </div>

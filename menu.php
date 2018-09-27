@@ -4,6 +4,7 @@
 include 'head_menu.php';
 ?>
 
+<div class="contain2" style="top: 103px">
 <div class="containAll">
 
 <div id="content_menu_generalUser">
@@ -12,6 +13,7 @@ include 'head_menu.php';
 
 <div id="content_menu_juniorUser"><?php include 'inc/content_menu_juniorUser.html'; ?></div>
 
+    </div>
     </div>
     
     <script type="text/javascript">

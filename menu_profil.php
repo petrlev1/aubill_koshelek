@@ -27,7 +27,7 @@ include 'head_menu2.php';
       </div>
       <br>
 
-      <a href="#" onClick="modal1NewPortType();" class="but1">Создать новый тип кошелька</a>
+      <a href="#" onClick="modal1NewPortType();" class="but3">+ СОЗДАТЬ НОВЫЙ ТИП КОШЕЛЬКА</a>
       <script> function modal1NewPortType() { $(".modal1NewPortType").show(); } </script>
 </div>
 

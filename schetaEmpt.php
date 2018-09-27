@@ -1,19 +1,24 @@
 <?php include 'header.php'; ?>
 
 <?php
-$menuBack = "koshelki.php";
-$titleName = "Создание нового кошелька";
+$menuBack = "menu.php";
+$titleName = "Счета";
 include 'head_menu2.php';
 ?>
 
 <div class="containAll">
-<ul class="fieldList">
-  <li><input type="text" size="8" placeholder="Название кошелька" class="inpText"></li>
-</ul>
-<div class="note2">В создаваемом кошельке вы становитесь старшим пользователем. Для добавления в кошелек младших пользователей, после создания кошелька зайдите в Меню -> Управление младшими пользователям</div>
-<br>
-<div class="but1">СОЗДАТЬ</div>
+  <div style="text-align:center"><br>
+    Вы пока не подключили ни одного счета.<br>
+  <br>
+    
+    Обратитесь в один из банков-партнеров AyBill для подключения счета.
+  <br>
+  <br><br>
+  <br>
+    
+  <a href="scheta.php" class="but3">+ ПОДКЛЮЧИТЬ НОВЫЙ СЧЕТ</a></div>
 </div>
+
 
 <div class="modal1 modal1NewPortType" style="left: 10px; right: 10px;">
 <div style="text-align:right"><a href="#" class="modal1Close"><img src="css/img/close.svg"></a></div>

@@ -26,7 +26,7 @@ include 'head_menu2.php';
 <br>
 <br>
 
-<a href="sozdanie_novogo_koshelka.php" class="but2">Создать новый кошелек</a>
+<a href="sozdanie_novogo_koshelka.php" class="but3">+ СОЗДАТЬ НОВЫЙ КОШЕЛЕК</a>
 </div>
 
 <div class="modal1 modal1NewPortType" style="left: 10px; right: 10px;">

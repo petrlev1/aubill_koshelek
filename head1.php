@@ -4,7 +4,7 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-  <td width="5"></td>
+  <td width="5"><a href="uvedomliniya.php"  class="notif"><img src="css/img/ic_notif.svg"><span>1</span></a></td>
     <td align="center"><div class="indTit"><strong>AyBill - кошелек</strong></div></td>
     <td width="1"><!--<?php include 'inc/dropMenu.php'; ?> --></td>
     <td width="1"><a href="menu.php"  class="genMenu"><img src="css/img/menu.svg"></a></td>
@@ -27,6 +27,7 @@
       <td width="50%">
       
       <div class="dropList2">
+      <div class="dropList2Ar"><img src="css/img/dropList2Ar.svg" /></div>
       <select name="select" id="changeList">
       <option value="changeListShowAll">Все документы</option>
       <option  value="changeListShowCheki">Чеки</option>
@@ -44,6 +45,7 @@
       <td width="50%" align="right" style="border-left: 1px #1468cc solid;">
       
       <div class="dropList2">
+      <div class="dropList2Ar"><img src="css/img/dropList2Ar.svg" /></div>
       <select name="select" id="changeListDate">
       <option value="changeListShowAllDate">По дате</option>
       <option value="changeListShowAllSum">По сумме</option>

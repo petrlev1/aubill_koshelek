@@ -15,7 +15,7 @@
 
 
 
-<div class="head1">
+<div class="head1" style="height: 77px;">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
   
