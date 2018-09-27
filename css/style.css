@@ -135,7 +135,7 @@ h3 { margin-top: 10px; }
 
 .floatButCont { position:absolute; display: block; width: 180px; bottom: 21px; text-align: right; right:18px; z-index: 2; }
 
-.floatBut { position: absolute; display: block; bottom: 20px; right: 20px; color: #ffffff; background-color: rgba(23,118,230,1); border: none; padding: 15px 20px; border-radius: 10px; font-weight: bold; font-family: 'Roboto', Verdana, Geneva, sans-serif; font-size: 12px; letter-spacing: 1px; text-align: center; z-index: 2 }
+.floatBut { position: absolute; display: block; bottom: 20px; right: 20px; color: #ffffff; background-color: rgba(23,118,230,1); border: none; padding: 15px 20px; border-radius: 10px; font-weight: bold; font-family: 'Roboto', Verdana, Geneva, sans-serif; font-size: 12px; letter-spacing: 1px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.4); z-index: 2 }
 .floatBut:hover { background-color: rgba(23,118,230,1); }
 .floatBut span { position: absolute; left: 15px; }
 .floatBut span img { width: 20px; }
