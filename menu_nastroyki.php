@@ -10,13 +10,18 @@ include 'head_menu2.php';
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
   <tr>
     <td>Перемещать документы в архив по истечении:</td>
-    <td><label>
-      <select name="select2" id="select2" class="dropMenu">
-        <option>12 часов</option>
-        <option>1 дня</option>
-        <option>3 дней</option>
-      </select>
-    </label></td>
+    <td>
+    
+    <div class="dropListItem">
+<a href="#" id="dropListDocs">12 часов</a>
+<div id="dropListDocs2" class="dropMenu2">
+<span class="dropMenuClose"></span>
+<a href="#">12 часов</a>
+<a href="#">1 дня</a>
+<a href="#">3 дней</a>
+</div>
+</div>
+</td>
   </tr>
   <tr>
     <td>Код авторизации для подключения меня младшим пользователем<br>
