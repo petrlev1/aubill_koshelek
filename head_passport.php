@@ -3,7 +3,6 @@
   <tr>
   <td width="1"><a href="index.php" class="arBack"><img src="css/img/arBack.svg"></a></td>
     <td align="left"><div class="tit1"><?php echo $titleName; ?></div></td>
-    <td width="1"><a href="menu.php" class="genMenu"><img src="css/img/menu.svg"></a></td>
   </tr>
 </table>
 </div>

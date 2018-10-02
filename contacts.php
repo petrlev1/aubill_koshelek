@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <?php
-$menuBack = "menu.php";
+$menuBack = "index.php";
 $titleName = "Контакты";
 $rightTit = "<img src=\"css/img/ic_search.svg\" style=\"margin-right: 5px\">";
 include 'head_menu2.php';

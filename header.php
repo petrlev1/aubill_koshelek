@@ -15,5 +15,11 @@
 </head>
 
 <body>
+
 <div class="contain1">
+
+<div class="menuAll">
+  <iframe src="menu.php" class="frameMenu"></iframe>
+</div>
+
 <div class="topStatLine"><img src="css/img/topStatLine.svg"></div>

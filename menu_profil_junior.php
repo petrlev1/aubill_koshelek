@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <?php
-$menuBack = "menu.php";
+$menuBack = "index.php";
 $titleName = "Профиль";
 include 'head_menu2.php';
 ?>

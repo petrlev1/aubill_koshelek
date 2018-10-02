@@ -42,16 +42,18 @@ h3 { margin-top: 10px; }
 
 .head1 a { color: #ffffff; }
 
-.headMenu { position: relative; margin: 0; cursor:pointer; padding: 10px; }
-.headMenuTit { display:block; font-size: 15px; margin: 0 0 3px 0; padding: 0 0 5px 0; font-weight: bold; }
-.headMenuTit2 { display:block; font-size: 11px; font-weight: bold; }
-.headMenuTit3 { display:block; font-size: 11px; margin: 5px 0 0 0 }
+.headMenu { position: relative; margin: auto; height: 70px; cursor:pointer; padding: 10px; }
+
+.headMenuPic { position: absolute; display: block; left: 0; width: 50px; height: 50px; background-color: #7aaeeb; border-radius: 3px; }
+.headMenuTit { display:block; font-size: 15px; margin: 0 0 3px 50px; padding: 0 0 5px 0; font-weight: bold; }
+.headMenuTit2 { display:block; font-size: 11px; font-weight: bold; margin: 0 0 0 50px; }
+.headMenuTit3 { display:block; font-size: 11px; margin: 5px 0 0 50px }
 
 .ic_headMenu_koshel { position: absolute; width: 24px; top: 15px; right: 16px;  opacity: 0.8; }
 .head1:hover .ic_headMenu_koshel { opacity: 1; }
 
-.genMenu { display: block; position: absolute; top: 3px; right: 10px; padding: 10px; }
-.notif { display: block; position: absolute; top: 3px; left: 5px; padding: 10px; }
+.genMenu { display: block; position: absolute; top: 3px; left: 5px; padding: 10px; }
+.notif { display: block; position: absolute; top: 3px; right: 15px; padding: 10px; }
 .notif span { position: absolute; display: block; right: -1px; top: 15px; font-weight: bold; font-size: 11px; }
 
 .menuList a { display: block; padding: 16px 0 16px 38px; color: #000000; background-position: left; background-repeat: no-repeat; }
@@ -187,13 +189,13 @@ h3 { margin-top: 10px; }
 .modal1 { position: absolute; display: none; min-width: 150px; font-size: 14px; border-radius: 3px; padding: 15px; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.5); z-index: 99; text-align: left; }
 .modal1 a { color: #000000; }
 
-.modal2 { position: absolute; display: none; background-color: rgba(0,0,0,0.5); width: 100%; bottom: 0; top: 24px; z-index: 2 }
+.modal2 { position: absolute; display: none; background-color: rgba(0,0,0,0.5); width: 100%; bottom: 0; top: 0; z-index: 2 }
 
 .modal2cont { position: absolute; display: block; font-size: 14px; top: 50px; left: 20px; right: 20px; border-radius: 3px; padding: 15px; background-color: #ffffff; box-shadow: 0 0 5px rgba(0,0,0,0.5); text-align: left; }
 .modal2cont a { color: #000000; }
 
 .modalList li { list-style: none; }
-.modalList li a { display: block; padding: 18px 10px; font-size: 20px; border-bottom: 1px #e0e0e0 solid; }
+.modalList li a { display: block; padding: 18px 10px; font-size: 20px; border-bottom: 1px #e0e0e0 solid; cursor: pointer; }
 .modalListEnd a { border-bottom: none !important; }
 
  .modal1NewDoc { display: none; width: 150px; }
@@ -210,9 +212,20 @@ h3 { margin-top: 10px; }
 
 
 
+.menuAll { position: absolute; width: 100%; top:0; bottom: 0; background-color: rgba(0,0,0,0.6); z-index: 99 }
+
+.frameMenu { position: absolute; display: block; width: 310px; height: 100%; left: -320px; top: 0; bottom: 0; background-color: #ffffff; border: none; transition: all 0.5s ease; }
+
+.menuCont { width: 100%; overflow: hidden }
+
+
+
+
 
 @media screen and (max-width: 576px) {
 
 .contain1 { position: fixed; top: -24px; bottom: 0; height: auto;  border: none; }
+    
+.menuAll { top: 24px; }
     
 }
