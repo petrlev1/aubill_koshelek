@@ -63,7 +63,7 @@ $("#changeListDate").change(function(){
   </div>
   
 
-  <a href="#" id="modal2" class="floatBut">
+  <a href="#" id="modal2" class="floatBut floatButSmall">
     <span><img src="css/img/ic_plus.svg"></span>
     <p>СОЗДАТЬ</p>
   </a>
@@ -91,7 +91,8 @@ $(".modal2hide").click(function(){
 <!--переключение блоков -->
 <script type="text/javascript">
 
-<!--переключение свайпом -->
+<!--переключение свайпом-->
+/*
 var myElement = document.getElementById('containCheki');
 var mc = new Hammer(myElement);
 
@@ -102,6 +103,7 @@ $(".list_block_table").css('left','0'); $("#tab2_1").addClass('tab1Act'); $("#ta
 mc.on("panleft", function(ev) {
 $(".list_block_table").css('left','-362px'); $("#tab2_2").addClass('tab1Act'); $("#tab2_1, #tab2_3").removeClass('tab1Act'); $(".actLine").css({"left": "122px", "width": "155px"});
 });
+*/
 <!-- /переключение свайпом -->
 
 $("#tab2_1").click(function() {

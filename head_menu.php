@@ -1,4 +1,4 @@
-<div class="modal2 modal2hide">
+<div class="modal2menu modal2hide">
   <div class="modal2cont">
     <ul class="modalList">
     <li><a class="content_menu_generalUser">Мой кошелек</a></li>
@@ -13,9 +13,7 @@
 
 
 
-<div class="head1">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
+<div class="head1 head1Menu">
   
   
   <?php 
@@ -25,7 +23,7 @@
   }
   ?>
   
-    <td align="left" valign="top">
+  
     <img src="css/img/ic_headMenu_koshel.svg" class="ic_headMenu_koshel">
 <div id="modal1ChangeUser" class="headMenu modal2a">
  <div class="headMenuPic"></div>
@@ -65,19 +63,16 @@ $(".editUserTitle").click(function() {$(".modal1ChangeTitle").show();});
 
 </script>
    
-    </td>
-    
-  </tr>
-</table>
+
 </div>
 
 
 <script type="text/javascript">
 $(".modal2a").click(function(){
-    $(".modal2").show();
+    $(".modal2menu").show();
 });
 
 $(".modal2hide").click(function(){
-    $(".modal2").hide();
+    $(".modal2menu").hide();
 });
 </script>
