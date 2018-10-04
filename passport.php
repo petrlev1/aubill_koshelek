@@ -48,8 +48,10 @@ include 'head_passport.php';
   </div>
 
 <a href="#" id="modal2" class="floatBut">
+<div>
     <span><img src="css/img/ic_action.svg"></span>
     <p>ДЕЙСТВИЯ</p>
+    </div>
   </a>
 <div class="modal2 modal2hide">
   <div class="modal2cont">

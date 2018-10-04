@@ -64,8 +64,10 @@ $("#changeListDate").change(function(){
   
 
   <a href="#" id="modal2" class="floatBut floatButSmall">
+  <div>
     <span><img src="css/img/ic_plus.svg"></span>
     <p>СОЗДАТЬ</p>
+    </div>
   </a>
   <div class="modal2 modal2hide">
   <div class="modal2cont">
