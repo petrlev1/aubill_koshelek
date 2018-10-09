@@ -6,6 +6,7 @@ $titleName = "Создание нового кошелька";
 include 'head_menu2.php';
 ?>
 
+<div class="contain2">
 <div class="containAll">
 <ul class="fieldList">
   <li><input type="text" size="8" placeholder="Название кошелька" class="inpText"></li>
@@ -13,6 +14,7 @@ include 'head_menu2.php';
 <div class="note2">В создаваемом кошельке вы становитесь старшим пользователем. Для добавления в кошелек младших пользователей, после создания кошелька зайдите в Меню -> Управление младшими пользователям</div>
 <br>
 <div class="but1">СОЗДАТЬ</div>
+</div>
 </div>
 
 <div class="modal1 modal1NewPortType" style="left: 10px; right: 10px;">

@@ -22,18 +22,18 @@ $("#containCheki").scroll(function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
        //$( ".head1 , .indFilters" ).hide();
-	   $( ".head1" ).css({'opacity': '0'});
+	   $( ".head1" ).css({'top': '-20px'});
 	   $( ".tab2" ).css({'top': '24px' , 'box-shadow': '0 2px 2px rgba(0,0,0,0.3)' });
-	   $( ".indFilters" ).css({'opacity': '0' , 'top': '0'});
-	   $(".containCheki").css({'top': '72px'});
+	   $( ".indFilters" ).css({'top': '35px'});
+	   setTimeout(function() { $(".containCheki").css({'top': '72px'}); }, (1 * 100));
 	   
 	   $(".floatBut").css({'width': '55px'}); setTimeout(function() { $(".floatBut p").hide(); }, (1 * 200));
 	   
    } else {
-	   $( ".head1" ).css({'opacity': '1'});
+	   $(".head1").show(); $( ".head1" ).css({'top': '24px'});
 	   $( ".tab2" ).css({'top': '64px' , 'box-shadow': '0 0 0 rgba(0,0,0,0)' });
-      $(".indFilters").css({'opacity': '1' , 'top': '112px'});
-	  $(".containCheki").css({'top': '148px'});
+      $(".indFilters").css({'top': '112px'});
+	  setTimeout(function() { $(".containCheki").css({'top': '148px'}); }, (1 * 100));
 	  
 	  $(".floatBut").css({'width': '150px'}); setTimeout(function() { $(".floatBut p").show(); }, (1 * 200));
    }

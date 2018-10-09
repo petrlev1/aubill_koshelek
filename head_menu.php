@@ -13,7 +13,7 @@
 
 
 
-<div class="head1 head1Menu">
+<div class="head1Menu">
   
   
   <?php 
