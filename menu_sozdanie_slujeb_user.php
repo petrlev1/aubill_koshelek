@@ -6,7 +6,7 @@ $titleName = "Создание младшего пользователя";
 include 'head_menu2.php';
 ?>
 
-<div class="contain2" style="bottom: 47px; top: 78px;">
+<div class="contain2">
   <div class="containAll">
   
   <ul class="fieldList">
@@ -97,7 +97,7 @@ include 'head_menu2.php';
 </table>
 <br><br>
 <div style="text-align:center">
-  <div class="but1" style="width: 100px;">СОЗДАТЬ</div>
+  <a href="mladshie_users.php" class="but1" style="width: 100px;">СОЗДАТЬ</a>
 </div>
   </div>
 </div>

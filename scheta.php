@@ -30,7 +30,7 @@ include 'head_menu2.php';
       </div>
     <br>
     <br>
-    <a href="scheta.php" class="but3">+ ПОДКЛЮЧИТЬ НОВЫЙ СЧЕТ</a>
+    <a href="#" class="but3">+ ПОДКЛЮЧИТЬ НОВЫЙ СЧЕТ</a>
   </div>
 </div>
 <div class="modal1 modal1NewPortType" style="left: 10px; right: 10px;">
