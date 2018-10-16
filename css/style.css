@@ -170,7 +170,7 @@ h3 { margin-top: 10px; }
 
 .floatButCont { position:absolute; display: block; width: 180px; bottom: 21px; text-align: right; right:18px; z-index: 2; }
 
-.floatBut { position: absolute; display: block; width: 150px; bottom: 20px; right: 25px; color: #ffffff; background-color: rgba(23,118,230,1); border: none; border-radius: 10px; font-weight: bold; font-family: 'Roboto', Verdana, Geneva, sans-serif; font-size: 12px; letter-spacing: 1px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.4); overflow: hidden; z-index: 2; transition: all 0.5s ease; }
+.floatBut { position: absolute; display: block; width: 150px; bottom: 20px; right: 25px; color: #ffffff; background-color: rgba(23,118,230,1); border: none; border-radius: 25px; font-weight: bold; font-family: 'Roboto', Verdana, Geneva, sans-serif; font-size: 12px; letter-spacing: 1px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.4); overflow: hidden; z-index: 2; transition: all 0.5s ease; }
 .floatBut:hover { background-color: #166FD9; }
 .floatBut div { height: 15px; margin: 18px 0; min-width: 45px; }
 .floatBut span { position: absolute; height: 25px; left: 18px; top: 5px; bottom: 0; margin: auto; }
@@ -179,7 +179,7 @@ h3 { margin-top: 10px; }
 .floatButCont:hover .floatBut { border-radius: 0; width: 100%; }
 .floatButCont:hover .floatBut ~ .floatButDrop { display: block }
 
-.but1 { display: inline-block; font-size: 13px; padding: 10px 18px; font-weight: bold; border: 1px solid #1776E6; border-radius: 8px; text-align: center; color: #ffffff; background-color: #1776E6; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.3); letter-spacing: 1px; }
+.but1 { display: inline-block; font-size: 13px; padding: 14px 22px; font-weight: bold; border: 1px solid #1776E6; border-radius: 25px; text-align: center; color: #ffffff; background-color: #1776E6; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.3); letter-spacing: 1px; }
 
 .but2 { display: inline-block; font-size: 13px; padding: 8px 16px; font-weight: bold; border: 1px solid #1776E6; border-radius: 8px; text-align: center; color: #1776E6; background-color: #ffffff; cursor: pointer; letter-spacing: 1px; }
 
@@ -245,7 +245,7 @@ h3 { margin-top: 10px; }
 
 .menuAll { position: absolute; width: 100%; top:0; bottom: 0; background-color: rgba(0,0,0,0.6); z-index: 99 }
 
-.frameMenu { position: absolute; display: block; width: 310px; left: -320px; top: 24px; bottom: 0; background-color: #ffffff; border: none; overflow: auto; transition: all 0.5s ease; z-index: 100; }
+.frameMenu { position: absolute; display: block; width: 300px; left: -320px; top: 24px; bottom: 0; background-color: #ffffff; border: none; overflow: auto; transition: all 0.5s ease; z-index: 100; }
 
 .menuCont { width: 100%; overflow: hidden }
 
